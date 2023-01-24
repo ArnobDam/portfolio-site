@@ -2043,6 +2043,7 @@ input, select, textarea {
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
+			/* font-size: xx-large; */
 		}
 
 		.icon.major {
@@ -2077,16 +2078,46 @@ input, select, textarea {
 
 			}
 
+		.header-icons {
+			list-style: none;
+			display: flex;
+			flex-direction: row;
+			text-align: center;
+			width: 100%;
+			padding-left: 0px;
+			margin-bottom: 0px;
+			/* margin: auto; */
+			/* margin: 0 0 2em 0; */
+		}
+
 		.icon.style1 {
 			color: #00ffcc;
+			font-size: xx-large;
+		}
+
+		.icon.style1:hover {
+			color: white;
+			/* transform: scale(); */
 		}
 
 		.icon.style2 {
 			color: #00f0ff;
+			font-size: xx-large;
+		}
+
+		.icon.style2:hover {
+			color: white;
+			/* transition: font-size 12s;
+			font-size: 38px; */
 		}
 
 		.icon.style3 {
 			color: #76ddff;
+			font-size: xx-large;
+		}
+
+		.icon.style3:hover {
+			color: white;
 		}
 
 /* Image */
@@ -2148,7 +2179,7 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 0 0 0;
 		padding-left: 1em;
 	}
 
@@ -3917,7 +3948,8 @@ input, select, textarea {
 			letter-spacing: 0.225em;
 			list-style: none;
 			padding: 0;
-			text-transform: uppercase;
+			padding-top: 15px;
+			/* text-transform: uppercase; */
 		}
 
 			#footer .copyright li {
@@ -3936,6 +3968,7 @@ input, select, textarea {
 
 				#footer .copyright li a {
 					color: inherit;
+					border-bottom: none;
 				}
 
 					#footer .copyright li a:hover {

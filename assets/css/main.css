@@ -2837,6 +2837,9 @@ input, select, textarea {
 
 		}
 
+		.spotlight h2 {
+			margin-bottom: 0.35em;
+		}
 /* Wrapper */
 
 	.wrapper {

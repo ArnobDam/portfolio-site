@@ -2838,8 +2838,13 @@ input, select, textarea {
 		}
 
 		.spotlight h2 {
-			margin-bottom: 0.35em;
+			margin-bottom: 0.5em;
 		}
+
+		.spotlight h5 a {
+			border-bottom: none;
+		}
+
 /* Wrapper */
 
 	.wrapper {
